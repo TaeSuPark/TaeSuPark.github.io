@@ -294,3 +294,5 @@ defaults:
       related: false
       # sidebar:
       #   nav: "main"
+
+future: true
