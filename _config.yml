@@ -17,11 +17,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale: "ko-KR"
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
-title: "Taesu's Blog"
+title: ""
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "taesu park"
-description: "full-stack developer"
+description: "React / Spring Boot"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -68,7 +68,7 @@ reCaptcha:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
-search: # true, false (default)
+search: true
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 lunr:
@@ -112,15 +112,11 @@ analytics:
 
 # Site Author
 author:
-  name: "taesu park"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "full-stack developer"
-  location: "Seoul, Korea"
+  name: "Taesu Park"
+  avatar: "/assets/images/googoobar.jpeg"
+  bio: "React와 Spring에 대해 다룹니다."
   email: "ptss0129@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ptss0129@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://taesuu.com"
@@ -289,11 +285,12 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      # sidebar:
+      #   nav: "main"
