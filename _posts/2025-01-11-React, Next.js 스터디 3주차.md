@@ -1,7 +1,7 @@
 ---
 published: true
-title: "스터디 3주차(1) - styled-components"
-excerpt: "React/Next.js 스터디 3주차 기록(1)"
+title: "스터디 3주차 - styled-components"
+excerpt: "React/Next.js 스터디 3주차 기록"
 categories: study
 tags: React
 
