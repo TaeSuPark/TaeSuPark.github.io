@@ -13,13 +13,13 @@ toc_sticky: false
 
 <br/>
 React 환경에서 가장 많이 쓰이는 hook에 대해서 짚고 넘어가기로 했다.
-- useState
-- useEffect
-- useMemo
+- `useState`
+- `useEffect`
+- `useMemo`
 
 ## 1. useState
 
-useState에 대해서 간략하게 알아보자.
+`useState`에 대해서 간략하게 알아보자.
 
 ```tsx
 const [state, setState] = useState<타입>(초기값)
@@ -48,7 +48,7 @@ const [data, setData] = useState<ObjectType>()
 
 ## 2. useEffect
 
-useEffect에 대해서 간략하게 알아보자.
+`useEffect`에 대해서 간략하게 알아보자.
 
 ```tsx
 useEffect(() => {
@@ -97,7 +97,7 @@ useEffect(() => {
 
 ## 3. useMemo
 
-useMemo에 대해서 간략하게 알아보자.
+`useMemo`에 대해서 간략하게 알아보자.
 
 ```tsx
 const memoState = useMemo(() => {
